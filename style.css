@@ -1,0 +1,40 @@
+body {
+background-color: #0f0f0f;
+}
+
+div {
+    margin: 10px 0;
+}
+
+h1{
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+.Main-picture {
+   border-radius: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    color: white;
+}
+
+
+.name{
+    background: rgb(255,1,199);
+    background: linear-gradient(90deg, rgba(255,1,199,1) 0%, rgba(255,93,219,1) 100%);
+}
+#discord-details {
+    background: rgb(122,33,254);
+    background: linear-gradient(90deg, rgba(122,33,254,1) 0%, rgba(166,108,253,1) 78%, rgba(216,192,251,1) 100%);    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#discord-details > img {
+    filter: brightness(0) invert(1);
+}
